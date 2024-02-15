@@ -60,8 +60,10 @@ dependencies {
     //Circle indicator
     implementation("me.relex:circleindicator:2.1.6")
 
-    //Glide
-    implementation("com.github.bumptech.glide:glide:4.16.0")
+    //Lotie
+    dependencies {
+        implementation 'com.airbnb.android:lottie:3.7.0'
+    }
 
     //Room
     def room_version = "2.6.1"

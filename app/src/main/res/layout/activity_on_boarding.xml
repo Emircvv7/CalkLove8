@@ -7,6 +7,8 @@
     android:background="@color/white"
     tools:context=".onboarding.OnBoardingActivity">
 
+
+
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
